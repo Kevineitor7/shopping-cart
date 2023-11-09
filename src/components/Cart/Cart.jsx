@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect, useContext } from 'react'
-import { ShopContext } from '/home/kevineitor/repos/shopping-cart/src/App.jsx';
+import { ShopContext } from '/src/App.jsx';
 import './Cart.css'
-import '/home/kevineitor/repos/shopping-cart/src/App.css'
+import '/src/App.css'
 
 export default function Cart() {
 

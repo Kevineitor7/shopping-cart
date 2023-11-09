@@ -1,8 +1,8 @@
 import './Home.css'
-import '/home/kevineitor/repos/shopping-cart/src/App.css'
+import '/src/App.css'
 import { Link } from "react-router-dom";
 import { useEffect, useContext } from 'react'
-import { ShopContext } from '/home/kevineitor/repos/shopping-cart/src/App.jsx';
+import { ShopContext } from '/src/App.jsx';
 
 
 export default function Home() {
