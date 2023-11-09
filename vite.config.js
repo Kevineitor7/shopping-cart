@@ -20,7 +20,8 @@ export default defineConfig({
         '/react',
         '/react-dom/client',
         "/react-router-dom",
-        '/react-transition-group'
+        '/react-transition-group',
+        '/home/kevineitor/repos/shopping-cart/src/main.jsx'
       ],
     },
   },
