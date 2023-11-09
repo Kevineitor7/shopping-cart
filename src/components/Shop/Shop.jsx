@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext } from 'react'
 import { Link } from "react-router-dom";
 import { ShopContext } from '/home/kevineitor/repos/shopping-cart/src/App.jsx';
-import '/home/kevineitor/repos/shopping-cart/src/components/Shop/Shop.css'
+import './Shop.css'
 import '/home/kevineitor/repos/shopping-cart/src/App.css'
 
 export default function Shop() {

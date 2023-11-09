@@ -1,4 +1,4 @@
-import '/home/kevineitor/repos/shopping-cart/src/components/Home/Home.css'
+import './Home.css'
 import '/home/kevineitor/repos/shopping-cart/src/App.css'
 import { Link } from "react-router-dom";
 import { useEffect, useContext } from 'react'
