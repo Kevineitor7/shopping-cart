@@ -17,6 +17,10 @@ export default defineConfig({
         '/home/kevineitor/repos/shopping-cart/src/components/Shop/Shop.jsx',
         '/home/kevineitor/repos/shopping-cart/src/components/Cart/Cart.jsx',
         '/home/kevineitor/repos/shopping-cart/src/components/ProductInfo/ProductInfo.jsx',
+        'react',
+        'react-dom/client',
+        "react-router-dom",
+        'react-transition-group'
       ],
     },
   },
