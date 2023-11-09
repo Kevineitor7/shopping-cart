@@ -11,7 +11,12 @@ export default defineConfig({
         "/home/kevineitor/repos/shopping-cart/src/App.css",
         '/home/kevineitor/repos/shopping-cart/src/components/Shop/Shop.css',
         '/home/kevineitor/repos/shopping-cart/src/components/Cart/Cart.css',
-        '/home/kevineitor/repos/shopping-cart/src/components/ProductInfo/ProductInfo.css'
+        '/home/kevineitor/repos/shopping-cart/src/components/ProductInfo/ProductInfo.css',
+        '/home/kevineitor/repos/shopping-cart/src/App.jsx',
+        "/home/kevineitor/repos/shopping-cart/src/components/Home/Home.jsx",
+        '/home/kevineitor/repos/shopping-cart/src/components/Shop/Shop.jsx',
+        '/home/kevineitor/repos/shopping-cart/src/components/Cart/Cart.jsx',
+        '/home/kevineitor/repos/shopping-cart/src/components/ProductInfo/ProductInfo.jsx',
       ],
     },
   },
