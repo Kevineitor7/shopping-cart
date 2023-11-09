@@ -1,0 +1,163 @@
+.cart {
+    height: fit-content;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.cart h2 {
+    margin-top: 80px;
+    font-size: 2.2rem;
+}
+
+.cart-container {
+    display: flex;
+    gap: 100px;
+}
+
+.cart-items {
+    width: 1000px;
+    height: fit-content;
+    min-height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 80px;
+}
+
+.cart-item {
+    width: 90%;
+    height: 220px;
+    background: rgb(231, 230, 230);
+    border: 1px solid rgb(153, 153, 153);
+    color: black;
+    padding: 16px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart-item img {
+    height: 100%;
+    width: 180px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.cart-item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 600px;
+}
+
+.cart-item-options {
+    display: flex;
+    gap: 32px;
+}
+
+.checkout {
+    border: 1px solid rgb(153, 153, 153);
+    width: 340px;
+    height: 520px;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 12px;
+    position: sticky;
+    top: 10px;
+    background: whitesmoke;
+}
+
+.checkout h3 {
+    font-size: 1.5rem;
+    margin: 20px 0 40px 0;
+}
+
+.subtotal, .taxes, .total {
+    display: flex;
+    align-self:center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    width: 80%;
+}
+
+@media screen and (max-width: 1100px) {
+    .cart-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-items {
+        min-height: 0;
+        width: 800px;
+    }
+
+    .cart-item-info {
+        align-items: center;
+    }
+
+    .checkout {
+        align-self: center;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cart-items {
+        width: 480px;
+    }
+
+    .cart-item-options {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cart-item {
+        height: fit-content;
+        font-size: 0.9rem;
+    }
+
+    .cart-item img {
+        width: 160px;
+    }
+
+    .remove-item-btn, .see-details-btn {
+        width: 120px;
+        font-size: 0.7rem;
+        height: 28px;
+    }
+
+    .checkout {
+        height: 400px;
+    }
+
+    .checkout h3 {
+        font-size: 1.3rem;
+    }
+
+    .subtotal, .taxes, .total {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .cart-items {
+        width: 320px;
+    }
+
+    .cart-item-title {
+        text-align: center;
+    }
+
+    .checkout {
+        width: 300px;
+    }
+}

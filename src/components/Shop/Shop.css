@@ -1,0 +1,239 @@
+.shop {
+    height: fit-content;
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.shop h2 {
+    padding: 60px 0 0;
+    font-size: 2rem;
+}
+
+.products {
+    height: fit-content;
+    min-height: 1000px;
+    width: 90%;
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.categories {
+    width: 15%;
+    height: 460px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    border: 1px solid rgb(0, 0, 65);
+    padding: 40px 0;
+    background: #001B79;
+    color: white
+}
+
+.categories h3 {
+    font-size: 1.5rem;
+}
+
+.categories ul {
+    list-style: none;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 1.1rem;
+}
+
+.categories li {
+    cursor: pointer;
+    transition: 200ms all ease-in-out;
+    width: fit-content;
+
+    &:hover {
+        color: lightskyblue;
+    }
+}
+
+.catalog {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.search-bar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+
+.search-bar input {
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    width: 320px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.products-grid {
+    height: fit-content;
+    padding: 40px 48px;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 100px 80px;
+}
+
+.product {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 210px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    background: white;
+    transition: all 300ms ease-out;
+    font-size: 0.9rem;
+
+    &:hover {
+        border-color: darkred;
+        box-shadow: 0px 0px 16px 1px rgb(107, 30, 2);
+    }
+}
+
+.product img {
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.product-name {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .products {
+        flex-direction: column;
+    }
+
+    .categories, .catalog {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .categories {
+        gap: 0px;
+        padding: 20px 0;
+    }
+
+    .categories ul {
+        flex-direction: row;
+        align-self: center;
+        gap: 50px;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 80px 60px;
+    }
+
+    .product {
+        width: 200px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .products {
+        gap: 20px;
+    }
+
+    .shop h2 {
+        font-size: 1.5rem;
+    }
+
+    .shop h3 {
+        font-size: 1.1rem;
+    }
+
+    .categories {
+        padding: 0;
+        border-radius: 20px;
+    }
+
+    .categories h3 {
+        font-size: 1.3rem;
+    }
+    
+    .categories ul {
+        flex-direction: column;
+        gap: 20px;
+        align-self: flex-start;
+        font-size: 1rem;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 60px 40px;
+    }
+
+    .product {
+        width: 160px;
+        height: 320px;
+        font-size: 0.8rem;
+    }
+
+    .see-details-btn {
+        width: 120px;
+        font-size: 0.7rem;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .search-bar {
+        font-size: 1rem;
+    }
+
+    .products-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 40px 40px;
+        padding: 0;
+    }
+
+    .product {
+        width: 120px;
+        height: 240px;
+        font-size: 0.8rem;
+    }
+
+    .product img {
+        height: 40%;
+    }
+
+    .product-name {
+        line-height: 0.8rem;
+    }
+
+    .see-details-btn {
+        width: 100px;
+        height: 20px;
+    }
+}
