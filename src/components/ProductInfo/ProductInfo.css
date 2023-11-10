@@ -12,9 +12,9 @@
     align-items: center;
     height: 80%;
     width: 70%;
-    background: #e9e4c2;
+    background: #fffbf6;
     padding: 16px 48px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .product-info-container img {
@@ -68,6 +68,7 @@
     font-size: 1.1rem;
     width: 64px;
     height: 20px;
+    background: rgb(235, 233, 233);
 }
 
 @media screen and (max-width: 700px) {
