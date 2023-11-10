@@ -1,6 +1,7 @@
 :root {
   --red: #790707;
-  --background: radial-gradient(circle, rgba(143,177,214,1) 0%, rgba(112,127,172,1) 100%);
+  --backgcround: radial-gradient(circle, rgba(143,177,214,1) 0%, rgba(112,127,172,1) 100%);
+  --background: radial-gradient(circle, rgba(210,224,251,1) 0%, rgba(180,187,209,1) 100%);
 }
 
 body {

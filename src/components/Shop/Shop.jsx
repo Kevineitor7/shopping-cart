@@ -96,7 +96,7 @@ export default function Shop() {
     return (
         <>
             <div className="shop">
-                <h2>Kakaroto Shop</h2>
+                <h2>touché Shop</h2>
                 <h3>Select a product to see details</h3>
                 <div className="products">
                     <div className="categories">

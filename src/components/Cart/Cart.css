@@ -31,8 +31,8 @@
 .cart-item {
     width: 90%;
     height: 220px;
-    background: rgb(231, 230, 230);
-    border: 1px solid rgb(153, 153, 153);
+    background: rgb(240, 239, 239);
+    border: 1px solid rgb(204, 204, 204);
     color: black;
     padding: 16px;
     margin: 8px 0;
@@ -62,7 +62,7 @@
 }
 
 .checkout {
-    border: 1px solid rgb(153, 153, 153);
+    border: 1px solid rgb(199, 199, 199);
     width: 340px;
     height: 520px;
     align-self: start;
